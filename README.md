@@ -79,5 +79,3 @@ Projeto criado para fins de estudo e portfólio
 ⭐ Considerações Finais
 
 Este projeto representa minha evolução prática no desenvolvimento web e mobile, servindo como base para projetos mais complexos no futuro.
-
-Este projeto representa minha evolução prática no desenvolvimento web e mobile, servindo como base para projetos mais complexos no futuro.

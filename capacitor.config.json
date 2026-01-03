@@ -1,0 +1,6 @@
+{
+  "appId": "com.ladylitora.app",
+  "appName": "LadyLitora",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

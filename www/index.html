@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - LadyLitora</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo LadyLitora" class="logo">
+    <h1>Clube de Leitura & Comunicação</h1>
+  </header>
+
+  <main>
+    <h2>Faça login para acessar o clube</h2>
+
+    <!-- Formulário de login -->
+    <form id="loginForm">
+      <input type="text" id="nomeUsuario" placeholder="Digite seu nome" required>
+      <button type="submit">Entrar</button>
+    </form>
+
+<!-- Clica no botão e abre login.html -->
+<button onclick="window.location.href='login.html'">Clube de Leitura</button>
+
+    <!-- Botão Sair -->
+    <button id="btnSair">Sair</button>
+  </main>
+
+  <!-- SCRIPT: sempre no final do body -->
+  <script>
+    // Função para o botão Sair
+    function voltarMenu() {
+      if (document.referrer) {
+        window.history.back(); // volta para a página anterior se existir
+      } else {
+        window.location.href = 'index.html'; // se não existir, vai para o menu
+      }
+    }
+
+    // Associa o botão à função
+    document.getElementById('btnSair').addEventListener('click', voltarMenu);
+
+    // Evento do formulário de login
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // evita recarregar a página
+      const nome = document.getElementById('nomeUsuario').value;
+      if (nome.trim() !== '') {
+        alert(`Bem-vinda, ${nome}! Agora você está no Clube de Leitura.`);
+        // Aqui você pode redirecionar para a área do clube depois
+      } else {
+        alert('Por favor, digite seu nome.');
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,253 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fdecef;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #6A0D6A;
+}
+
+header {
+  padding: 20px;
+}
+
+header .logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* Menu */
+#menu {
+  position: sticky;
+  top: 0;
+  background-color: #fdecef;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1000;
+}
+
+#menu button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#menu button:hover {
+  background-color: #A21F63;
+  transform: scale(1.05);
+}
+
+/* Home */
+.home {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.home h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* App & Input */
+#app {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 280px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Livros */
+.livro {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 320px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.livro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.livro img.capa-livro {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.livro img.capa-livro:hover {
+  transform: scale(1.05);
+}
+
+.livro h3 {
+  color: #d63384;
+  margin: 10px 0 5px 0;
+}
+
+.livro p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Botões */
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 280px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #d63384;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #A21F63;
+  transform: scale(1.05);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #f3e8ff, #efe1f7);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header .logo {
+  width: 150px;  /* aumenta ou diminui o tamanho do logo */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centraliza a imagem */
+}
+
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #ff1493;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffe4e1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ===== LOGIN ===== */
+.login-container {
+  background-color: #fff7fb;
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 130px;
+  margin-bottom: 15px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #d63384;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #b52d6f;
+}
+
+body {
+  background: linear-gradient(180deg, #f3e8ff, #efe1f7);
+}
+
+
+

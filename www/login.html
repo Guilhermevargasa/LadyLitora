@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - LadyLitora</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+  <div class="login-container">
+
+  <header>
+    <img src="img/logo.png" alt="Logo LadyLitora" class="logo">
+    <h1>Clube de Leitura</h1>
+  </header>
+
+    <main>
+    <h2>Seus livros disponíveis:</h2>
+    <ul>
+      <li>Livro 1: O Poder do Hábito</li>
+      <li>Livro 2: Mindset: A Nova Psicologia do Sucesso</li>
+      <li>Livro 3: A Arte de Ler Mentes</li>
+      <li>Livro 4: Mulherzinhas</li>
+      <li>Livro 5: Pequeno Príncipe</li>
+    </ul>
+
+    <button onclick="window.location.href='index.html'">Sair</button>
+  </main>
+
+  <script>
+    // Função para o botão Sair
+    document.getElementById('btnSair').addEventListener('click', function() {
+      // Retorna para index.html
+      window.location.href = 'index.html';
+    });
+
+    <!-- Sair volta para index.html -->
+<button onclick="window.location.href='index.html'">Sair</button>
+
+
+    // Evento do formulário de login
+  document.getElementById('loginForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // evita recarregar
+  const nome = document.getElementById('nomeUsuario').value;
+  if (nome.trim() !== '') {
+    // redireciona para livros.html
+    window.location.href = 'livros.html';
+  } else {
+    alert('Por favor, digite seu nome.');
+  }
+});
+
+
+
+  </script>
+
+  </div> <!-- fim login-container -->
+
+</body>
+</html>
+

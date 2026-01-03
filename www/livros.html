@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livros - LadyLitora</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo LadyLitora" class="logo">
+    <h1>Clube de Leitura</h1>
+  </header>
+
+  <main>
+    <h2>Seus livros disponíveis</h2>
+
+    <ul id="listaLivros">
+      <li>Livro 1: O Poder do Hábito</li>
+      <li>Livro 2: Mindset: A Nova Psicologia do Sucesso</li>
+      <li>Livro 3: A Arte de Ler Mentes</li>
+      <li>Livro 4: Mulherzinhas</li>
+      <li>Livro 5: Pequeno Príncipe</li>
+    </ul>
+
+    <button id="btnSair">Sair</button>
+  </main>
+
+  <!-- Sair volta para index.html -->
+<button onclick="window.location.href='index.html'">Sair</button>
+
+
+  <script>
+    // Botão sair volta para o menu principal
+    document.getElementById('btnSair').addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+  </script>
+
+</body>
+</html>
